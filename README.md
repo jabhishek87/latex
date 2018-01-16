@@ -2,7 +2,7 @@
 collection of latex templates and resume
 
 # Templates
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://github.com/jkabhishek/latex)
+[![N|Solid](https://raw.githubusercontent.com/jkabhishek/latex/master/images/awesome.png)](https://github.com/jkabhishek/latex)
 
 # Instruction
 It Requires Docker to run
