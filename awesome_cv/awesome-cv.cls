@@ -542,6 +542,22 @@
   \phantomsection
 }
 
+% Define an environment for projectentries
+\newenvironment{projectentries}{%
+  \vspace{\acvSectionContentTopSkip}
+}{%
+  % write for ending projectentries
+}
+
+% Define an entry of project information
+% Usage: \projectentry{<title>}{<stack>}{<description>}
+
+\newcommand*{\projectentry}[3]{%
+  {\entrytitlestyle{#1}} \\
+  {\textit{\skillsetstyle{#2}}} \\
+  {\descriptionstyle{#3}}
+}
+
 % Define a paragraph for CV
 \newenvironment{cvparagraph}{%
   \vspace{\acvSectionContentTopSkip}
