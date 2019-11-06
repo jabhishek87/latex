@@ -106,15 +106,4 @@
 
 
 %-------------------------------------------------------------------------------
-
-\directlua{
-luatexbase.add_to_callback(
-'stop_run',
-function ()
- texio.write_nl("renaming output to Abhishek_Jaiswal")
-  os.rename("\jobname" .. ".pdf", "Abhishek_Jaiswal.pdf")
-end,
-"renamepdf"
-)
-}
 \end{document}
